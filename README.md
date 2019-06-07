@@ -50,3 +50,5 @@ public function posts(){
         return $this->hasOne(Profile::class); //un usuario tiene un solo perfil
     }
 para hacer un rollback 
+crear el controlador para el posts
+php artisan make:controller PostsController
